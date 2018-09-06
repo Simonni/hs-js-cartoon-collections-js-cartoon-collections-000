@@ -7,15 +7,13 @@ return dwarf;
 }
 
 function summonCaptainPlanet(planeteerCalls){
-  var caps = [];
+   var caps = [];
   for(let i =0; i<planeteerCalls.length; i++){
-    caps.push(planeteerCalls[i].toUpperCase());
-    return (`${caps[i]}!`);
-
+    caps.push(`${planeteerCalls[i].toUpperCase()}!`);
+  
   }
   return caps;
 }
-
 
 function longPlaneteerCalls(words) {
   for (let i=0; i<words.length; i++){
